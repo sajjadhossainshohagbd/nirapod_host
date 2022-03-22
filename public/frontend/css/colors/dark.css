@@ -1,0 +1,104 @@
+/*------------------------------------------------------------------
+Project: Antler - Hosting Provider & WHMCS Template
+Description: Antler Responsive Premium Template Designed for all web hosting providers
+Author: inebur (Rúben Rodrigues)
+Author URI: http://inebur.com/
+Author Envato: https://themeforest.net/user/inebur
+Copyright: 2021 inebur
+Version: 2.4
+
+ * Dark Color Skin
+ -------------------------------------------------------------------*/
+
+/* Dark Light */
+svg #svg-ico{fill:#4c555d;}
+svg #svg-concept{stroke:#4c555d;}
+.golink{color:#4c555d !important;border-bottom:solid 1px #4c555d;}
+.golink:hover{color:#4c555d !important;}
+.bg-pink{background-color:#4c555d !important;}
+.c-pink{color:#4c555d !important;}
+.bb-pink{border-bottom:solid 1px #4c555d !important;}
+.popover{border:solid 1px #4c555d;}
+.popover .arrow::before{border-top-color:#4c555d;}
+.popover .popover-header{background-color:#4c555d;}
+::selection{background:#4c555d;}
+.nav-menu .main-menu > .menu-item > .sub-menu > .menu-item a:hover{color:#4c555d;}
+.nav-menu .main-menu .menu-item .menu-large .service-list .service .media-body a:hover{color:#4c555d;}
+.megamenu .start-offer .inner{background-color:#4c555d;}
+.megamenu .service-list .service.special .media-body a:hover{color:#4c555d;}
+.megamenu .service-list .service .media-body a:hover{color:#4c555d;}
+.megamenu-list .service-list .service .media-body a:hover{color:#4c555d;}
+.team .wrapper:hover .team-info .desc{color:#4c555d;}
+.wpc-cloud-range .noUi-connect{background-color:#4c555d;}
+.wpc-cloud-range .noUi-tooltip:before{border-color:#4c555d transparent transparent transparent;}
+.wpc-cloud-range .noUi-tooltip{background-color:#4c555d;}
+.wpc-cloud-range .noUi-horizontal .noUi-handle{background-color:#4c555d;}
+.wpc-vps-info .title .info{color:#4c555d;}
+.fullrock .closer{color:#4c555d !important;}
+.form-control:focus{border:solid 1px #4c555d !important;}
+.sec-bg5{background-color:#4c555d;}
+.total-grad{background:linear-gradient(-60deg, #4c555d 0%,#212529 100%) !important;}
+.total-grad-inverse{background:linear-gradient(240deg, #212529 0%,#4c555d 100%);}
+.total-grad-pink-blue-intense {background: linear-gradient(240deg, #000000 50%, #3f004a 100%);}
+.menu-wrap.fixed{background:linear-gradient(89deg,#212529 3%,#4c555d 98%);}
+.btn-default-pink{color:#4c555d;border:1px solid #4c555d;}
+.btn-default-pink:hover{background-color:#4c555d;}
+.btn-default-grad-purple-fill{background-image:linear-gradient(to right, #212529, #4c555d 40%, #4c555d 40%, #212529);}
+.btn-default-grad-purple-fill:hover{background-image:linear-gradient(to right, #212529, #4c555d 40%, #4c555d 40%, #212529);}
+.btn-default-pink-fill{background-color:#4c555d !important;}
+.owl-theme .owl-dots .owl-dot.active span{border:solid 1px #4c555d !important;}
+.pricing .wrapper .title{color:#4c555d;}
+.pricing .list-info{background-color:#4c555d;}
+.slick #slider .plan-container .title{color:#4c555d;}
+.tabs-header .btn-secondary:not(:disabled):not(.disabled).active{background-color:#4c555d !important;}
+.tabs.offers-tabs .tabs-header .active{border-left:solid 2px #4c555d;color:#4c555d;}
+.tabs.offers-tabs .tabs-header .active:hover{color:#4c555d;}
+.fill-input:focus{border-color:#4c555d !important;}
+.countdown .wrapper .clock div:first-child{border:solid 1px #4c555d;background-color:#4c555d;}
+.accordion.faq .panel-title.active{border-bottom:solid 1px #4c555d;}
+.blog .sidebar .heading.active{color:#4c555d;}
+.blog .sidebar .posts .tabs-header li.active{color:#4c555d;border-bottom-color:#4c555d;}
+.blog .sidebar .line.active:before{background-color:#4c555d;}
+.blog .media .media-heading a:hover{color:#4c555d;}
+.blog .wrap-blog .social-icon i{color:#4c555d;}
+.blog .sidebar .categories .heading a.active{color:#4c555d;}
+.blog .sidebar .categories .heading a:after{color:#4c555d;}
+.blog .sidebar .categories .heading span{color:#4c555d;}
+.circle-section .title-round{color:#4c555d;}
+.domain-prices li{color:#4c555d;}
+.maping .datacenters{background:#4c555d;}
+.footer .soc-icons i{color:#4c555d;}
+.included i{color:#4c555d;}
+.soc-icons-apply span{color:#4c555d;}
+.bigline{border:solid 1px #4c555d;}
+.smallline{border:solid 1px #4c555d;}
+.knowledge a{color:#4c555d;}
+.godown span{color:#4c555d;}
+.cd-filter-block input[type=radio]:checked + label::before, .cd-filter-block input[type=checkbox]:checked + label::before{border:solid 1px #4c555d !important;background-color:#4c555d !important;}
+.cd-filter-block select:hover{border:solid 1px #4c555d !important;}
+.cd-filter-block input:focus,
+.cd-filter-block select:focus{border-color:#4c555d !important;}
+.range-slider-input::-webkit-slider-runnable-track{background:#4c555d;}
+.range-slider-input::-webkit-slider-thumb{background:#4c555d;}
+.zoo-content .icoo i{background-color:#4c555d;}
+.services .service-wrap .pay img{border:solid 1px #4c555d;}
+.page-item.active .page-link{background-color:#4c555d !important;border-color:#4c555d !important;}
+.cd-filter-block input.range-slider-input{background-color:#4c555d !important;}
+.range-slider-input::-webkit-slider-thumb{background-color:#4c555d !important;}
+.range-slider-input::-moz-range-thumb{background-color:#4c555d !important;}
+/* Dark Dark */
+.bg-purple{background-color:#212529 !important;}
+.c-purple{color:#212529 !important;}
+.sec-grad-white-to-purple{background:linear-gradient(90deg, #fff 70%, #212529 0%) !important;}
+.btn-default-purple{color:#212529;border:1px solid #212529;}
+.btn-default-purple:hover{background-color:#212529;}
+.btn-default-purple-fill{background-color:#212529 !important;}
+.pricing .table .title{color:#212529;}
+.accordion.faq .panel-title.active{color:#212529 !important;}
+.wpc-vps-info .price-wrap .title{background-color:#212529;}
+/* Custom Dark */
+.megamenu .start-offer .inner .inner-content{color:#efefef;}
+
+
+
+
