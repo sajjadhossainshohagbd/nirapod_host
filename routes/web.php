@@ -24,6 +24,7 @@ Route::get('/nirapod-admin', function () {
 })->name('dashboard')->middleware('auth');
 
 Route::get('clear-cache',function(){
+    Artisan::call('migrate');    
     Artisan::call('cache:clear');    
     Artisan::call('config:clear');
     Artisan::call('view:clear');  

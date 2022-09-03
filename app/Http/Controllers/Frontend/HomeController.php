@@ -2,17 +2,42 @@
 
 namespace App\Http\Controllers\Frontend;
 
+use App\Models\Blog;
+use App\Models\Page;
+use App\Models\Comment;
+use App\Mail\ContactMail;
+use App\Models\Subscribe;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Mail\ContactMail;
-use App\Models\Blog;
-use App\Models\Comment;
-use App\Models\Page;
-use App\Models\Subscribe;
 use Illuminate\Support\Facades\Mail;
+use App\Models\ProductActivationManager;
 
 class HomeController extends Controller
 {
+    public function activationCheck(Request $request)
+    {
+
+        try{
+
+            $product = ProductActivationManager::firstOrCreate([
+                'url' =>  $request->url,
+                'product_name' => $request->product_name
+            ],[
+                'purchase_code' => $request->purchase_code
+            ]);
+
+            return response([
+                'activation_status' => $product->status
+            ],200);
+
+        }
+        catch(\Throwable $th){
+            return response([
+                'status' => 500,
+                'activation_status' => $product->status ?? 0
+            ]);
+        }
+    }
     public function Reseller()
     {
         return view('frontend.reseller');
